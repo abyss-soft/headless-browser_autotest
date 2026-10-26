@@ -1,0 +1,21 @@
+{
+  "name": "headless-browser",
+  "version": "1.0.0",
+  "description": "Measure web performance with local Lighthouse audits",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "author": "Alexander Panov",
+  "license": "ISC",
+  "homepage": "https://github.com/abyss-soft/",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "lighthouse": "^13.5.0",
+    "puppeteer": "^25.16.0"
+  }
+}

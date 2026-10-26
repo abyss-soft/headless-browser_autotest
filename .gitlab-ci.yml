@@ -1,0 +1,12 @@
+image: node:24
+
+stages:
+  - test
+
+test:
+  stage: test
+  variables:
+    PUPPETEER_SKIP_DOWNLOAD: "true"
+  script:
+    - npm ci
+    - npm test
