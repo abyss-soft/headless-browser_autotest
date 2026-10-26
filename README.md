@@ -5,6 +5,10 @@ JSON using local Lighthouse and can optionally send them to ClickHouse.
 
 Related project: [Lighthouse testing dashboard](https://github.com/abyss-soft/lighthouse-testing)
 
+## Dashboard screenshots
+
+<img title="" src="./img/img.png" alt="" width="800" height="600">
+
 ## Requirements
 
 - Node.js 22.19 or newer
